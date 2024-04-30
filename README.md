@@ -77,5 +77,5 @@ Welcome to Traini8 Center Registry! This guide will help you set up the project 
 - **Description:** Retrieve a list of all stored training center information.
 - **Response:** JSON array containing the details of all training centers.
 
-### Conclusion
-You have successfully set up Traini8 Center Registry on your local machine. Feel free to explore the provided APIs and integrate them into your applications. If you encounter any issues during setup or usage, please don't hesitate to reach out for assistance.
+Feel free to explore the provided APIs and integrate them into this applications. 
+If you encounter any issues during setup or usage, please don't hesitate to reach out for assistance.
