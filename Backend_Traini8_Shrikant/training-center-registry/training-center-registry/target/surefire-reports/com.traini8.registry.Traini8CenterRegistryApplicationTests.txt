@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.traini8.registry.Traini8CenterRegistryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.517 s -- in com.traini8.registry.Traini8CenterRegistryApplicationTests
