@@ -46,7 +46,9 @@ public class TrainingCenterController {
                 return new ResponseEntity<TrainingCenterResponse>(savedTrainingCenter, HttpStatus.OK);
             } else {
                 log.error("Create Training Center: Invalid input. Response: {}", HttpStatus.BAD_REQUEST);
-                return new ResponseEntity<TrainingCenterResponse>(HttpStatus.BAD_REQUEST);
+                TrainingCenterResponse response = new TrainingCenterResponse();
+                response.setMessage("Please Provide the valid input!");
+                return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
             }
         } catch (Exception e) {
             log.error("Create Training Center: Failed. Error: {}", e);
