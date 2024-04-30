@@ -29,5 +29,11 @@ public class TrainingCenterResponse {
     private String contactEmail;
     
     private String contactPhone;
+
+    private String message;    
+        
+    public void setMessage(String message) {
+        this.message = message;
+    }
     
 }
